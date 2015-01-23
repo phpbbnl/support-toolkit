@@ -35,6 +35,9 @@ if (empty($lang) || !is_array($lang))
 //
 // Some characters you may want to copy&paste:
 // ’ » " " …
+// --------------------------------------------------------------------------------------------
+// For the time being this file isn't translatable. The Support Toolkit will always force the
+// English version when the "Support Request Generator" is ran.
 //
 
 $lang = array_merge($lang, array(
@@ -118,12 +121,14 @@ $lang = array_merge($lang, array(
 	'SRT_DROPDOWN_OPTIONS'	=> array(
 		'step2'	=> array(
 			'install_type'	=> array(
+				null			=> 'Selecteer alstublieft je antwoord',
 				'myself'		=> 'Ik heb het pakket gedownload van phpBB.com',
 				'third'			=> 'Ik heb het pakket van een andere website',
 				'someone_else'		=> 'Iemand anders heeft het voor me geïnstalleerd',
 				'automated'		=> 'Ik heb het geïnstalleerd met een tool via mijn host',
 			),
 			'inst_converse'	=> array(
+				null			=> 'Selecteer alstublieft je antwoord',
 				'fresh'			=> 'Schone Installatie',
 				'phpbb_update'		=> 'Update van een eerdere versie van phpBB3',
 				'convert_phpbb2'	=> 'Conversie van phpBB2',
@@ -132,6 +137,7 @@ $lang = array_merge($lang, array(
 		),
 		'step3'	=> array(
 			'xp_level'		=> array(
+				null			=> 'Selecteer alstublieft je antwoord',
 				'new_both'		=> 'Nieuw met PHP en phpBB',
 				'new_phpbb'		=> 'Nieuw met phpBB maar wel bekend met PHP',
 				'new_php'		=> 'Nieuw met PHP maar wel bekend met phpBB',
